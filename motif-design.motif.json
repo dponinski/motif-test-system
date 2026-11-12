@@ -1,0 +1,67 @@
+{
+  "motif": 1,
+  "id": "xHTSbWYv",
+  "name": "Motif Design",
+  "componentGroups": [],
+  "components": [
+    {
+      "elements": {
+        "tcH2iLVz": {
+          "children": [
+            "x6SAmULX"
+          ],
+          "cornerRadius": 8,
+          "fill": "#4338ca",
+          "fillTokenId": "c8",
+          "height": 61,
+          "id": "tcH2iLVz",
+          "name": "Frame",
+          "opacity": 1,
+          "rotation": 0,
+          "stroke": "#6366f1",
+          "strokeWidth": 1,
+          "type": "frame",
+          "width": 109,
+          "x": 184,
+          "y": 230
+        },
+        "x6SAmULX": {
+          "content": "Button",
+          "fill": "transparent",
+          "fontColor": "#ffffff",
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "400",
+          "height": 17,
+          "id": "x6SAmULX",
+          "name": "Text",
+          "opacity": 1,
+          "parentId": "tcH2iLVz",
+          "rotation": 0,
+          "type": "text",
+          "typographyTokenId": "t8",
+          "width": 48,
+          "x": 34,
+          "y": 24
+        }
+      },
+      "groupId": null,
+      "id": "comp-main",
+      "name": "Main",
+      "order": [
+        "tcH2iLVz"
+      ],
+      "variantProps": [
+        {
+          "default": "Default",
+          "id": "rnsuVe",
+          "name": "State",
+          "values": [
+            "Default",
+            "Hover"
+          ]
+        }
+      ]
+    }
+  ]
+}
