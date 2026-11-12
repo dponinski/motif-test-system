@@ -11,8 +11,8 @@
             "x6SAmULX"
           ],
           "cornerRadius": 8,
-          "fill": "#4338ca",
-          "fillTokenId": "c8",
+          "fill": "#3e55df",
+          "fillTokenId": "bPFU1v",
           "height": 61,
           "id": "tcH2iLVz",
           "name": "Frame",
@@ -62,6 +62,42 @@
           ]
         }
       ]
+    },
+    {
+      "elements": {},
+      "groupId": null,
+      "id": "pmeBFjK3",
+      "name": "Component 2",
+      "order": [],
+      "variantProps": []
+    }
+  ],
+  "docs": [
+    {
+      "blocks": [
+        {
+          "id": "intro",
+          "text": "",
+          "type": "text"
+        },
+        {
+          "componentId": "comp-main",
+          "id": "preview",
+          "type": "preview"
+        },
+        {
+          "componentId": "comp-main",
+          "id": "props",
+          "type": "props"
+        },
+        {
+          "componentId": "comp-main",
+          "id": "code",
+          "type": "code"
+        }
+      ],
+      "id": "doc-comp-comp-main",
+      "title": "Main"
     }
   ]
 }
