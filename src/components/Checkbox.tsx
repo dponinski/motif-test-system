@@ -6,7 +6,7 @@ export interface CheckboxProps extends Omit<InputHTMLAttributes<HTMLInputElement
 }
 
 export const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
-  ({ className, label, id, ...props }, ref) => {
+  ({ className, label = "Checkbox ", id, ...props }, ref) => {
     const autoId = useId();
     const inputId = id ?? autoId;
     return (
