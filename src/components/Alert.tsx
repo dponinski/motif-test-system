@@ -2,7 +2,7 @@ import type { HTMLAttributes, ReactNode } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "../lib/cn";
 
-const alertVariants = cva("flex gap-3 rounded-md border p-4 text-sm", {
+const alertVariants = cva("flex gap-2 rounded-md border p-4 text-sm justify-center flex-row items-start", {
   variants: {
     variant: {
       info: "border-primary/30 bg-primary/8",
@@ -33,7 +33,7 @@ export function Alert({ className, variant, title, children, ...props }: AlertPr
       className={cn(alertVariants({ variant: v }), className)}
       {...props}
     >
-      <span aria-hidden className={cn("mt-1 h-2 w-2 shrink-0 rounded-full", accent[v])} />
+      <span aria-hidden className={cn("h-2 w-2 shrink-0 rounded-full mt-1.5", accent[v])} />
       <div className="flex flex-col gap-1">
         {title && <p className="font-semibold">{title}</p>}
         {children && <div className="text-muted-foreground">{children}</div>}
