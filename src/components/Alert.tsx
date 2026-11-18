@@ -2,7 +2,7 @@ import type { HTMLAttributes, ReactNode } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "../lib/cn";
 
-const alertVariants = cva("flex gap-2 rounded-md border p-4 text-sm justify-center flex-row items-start", {
+const alertVariants = cva("flex gap-2 rounded-md border p-4 text-sm justify-start flex-row items-start", {
   variants: {
     variant: {
       info: "border-primary/30 bg-primary/8",
