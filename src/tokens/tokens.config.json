@@ -7,8 +7,9 @@
   },
   "sets": [
     {
-      "name": "dponinski/motif-test-system",
-      "key": "tokens",
+      "name": "Primitive",
+      "key": "primitive",
+      "description": "Color ramps and units",
       "themes": [
         {
           "key": "light",
@@ -21,9 +22,9 @@
       ]
     },
     {
-      "name": "Primitive",
-      "key": "primitive",
-      "description": "Color ramps and units",
+      "name": "Semantic",
+      "key": "tokens",
+      "description": "Role based tokens",
       "themes": [
         {
           "key": "light",
@@ -61,6 +62,16 @@
       "name": "Radius",
       "key": "radius",
       "description": "Corner radii",
+      "themes": [
+        {
+          "key": "default",
+          "name": "Default"
+        }
+      ]
+    },
+    {
+      "name": "Spacing",
+      "key": "spacing",
       "themes": [
         {
           "key": "default",
