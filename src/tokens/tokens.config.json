@@ -1,0 +1,72 @@
+{
+  "files": "single",
+  "output": "src/styles/tokens.css",
+  "tailwind": true,
+  "selectors": {
+    "dark": ".dark"
+  },
+  "sets": [
+    {
+      "name": "dponinski/motif-test-system",
+      "key": "tokens",
+      "themes": [
+        {
+          "key": "light",
+          "name": "Light"
+        },
+        {
+          "key": "dark",
+          "name": "Dark"
+        }
+      ]
+    },
+    {
+      "name": "Primitive",
+      "key": "primitive",
+      "description": "Color ramps and units",
+      "themes": [
+        {
+          "key": "light",
+          "name": "Light"
+        },
+        {
+          "key": "dark",
+          "name": "Dark"
+        }
+      ]
+    },
+    {
+      "name": "Typography",
+      "key": "typography",
+      "description": "Tyle scale",
+      "themes": [
+        {
+          "key": "default",
+          "name": "Default"
+        }
+      ]
+    },
+    {
+      "name": "Elevation",
+      "key": "elevation",
+      "description": "Shadows",
+      "themes": [
+        {
+          "key": "default",
+          "name": "Default"
+        }
+      ]
+    },
+    {
+      "name": "Radius",
+      "key": "radius",
+      "description": "Corner radii",
+      "themes": [
+        {
+          "key": "default",
+          "name": "Default"
+        }
+      ]
+    }
+  ]
+}
